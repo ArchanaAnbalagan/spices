@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Cormorant+SC:wght@700&family=Lobster&family=Merienda&family=Zilla+Slab:ital,wght@0,500;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant SC', serif;
+}
+.navbar-brand{
+    color: rgb(9, 190, 9) !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+    padding-left: 100px !important;
+}
+
+#collapse li{
+    color: white !important;
+    font-size: larger !important;
+    border-bottom: 2px solid transparent;
+    
+}
+#collapse li :hover {
+    color: rgb(9, 190, 9) !important;
+    border-bottom: 3px solid  rgb(9, 190, 9) !important;
+}
+ul .btn{
+    margin-left: 90px !important;
+    color: white !important;
+    background-color:rgb(9, 190, 9) !important;
+    margin-top: 10px;
+    width: 100px;
+    padding:5px !important;
+    border-radius: 10px !important;
+
+}
+.navbar-fixed-top{
+    left: 0 ;
+    top:0;
+    z-index: 100;
+}
+section{
+    width:100%;
+    height:600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    background-image: url(images/download.avif);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.home h1{
+    padding-top: 200px;
+    padding-left: 300px;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+}
+.home p{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    padding-left: 100px;
+}
+.home input{
+    height: 40px;
+    width:400px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.home button{
+    height: 40px;
+    width: 100px;
+    background-color:rgb(9, 190, 9);
+    color: white;
+    font-size: larger;
+    border: 1px solid rgb(9, 190, 9);
+}
+.home button:hover{
+     background-color: black;
+}
+.about .container-fluid {
+    background:linear-gradient(#ea1d6f,#eb466b 100%);
+}
+.about img{
+  margin-top: 90px;
+  margin-left: 20px;
+    height: 70%;
+    width:70%;
+}
+.product h1{
+    padding-top: 100px;
+    padding-left: 400px;
+    font-size: 60px;
+    font-weight: 400;
+    color: black;
+}
+.product .card{
+    height: 300px;
+    width: 300px;
+   
+    margin-top: 70px;
+}
+.product .card img:hover{
+    box-shadow:1px 2px 6px black;
+    transition: 0.3s all ease-in-out;
+}
+.product .card img{
+    width:280px;
+    height:250px;
+    margin-left: 10px;
+    transition: scale(1.5);
+}
+.product .card .card-body{
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(9, 190, 9);
+}
+.about h1{
+    padding-top: 100px;
+    
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+}
+.about p{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    justify-content: center;
+    
+}
+.contact {
+    width: 100%;
+    height: 600px;
+   
+    
+}
+.contact .container-fluid h1{
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-left: 400px;
+    font-size: 60px;
+    font-weight: 400;
+    color: black;
+}
+.contact .box{
+    height:350px;
+    width:500px;
+    margin-left: 350px;
+    margin-top: 50px;
+    transition:scale(1.5) ;
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:orange;
+    border-radius: 10px;
+    line-height: 1.5;
+
+}
+
+.contact .box:hover{
+    box-shadow: 1px 2px 15px  darkorange;
+    transition: 0.1s all ease-in-out;
+}
+
+@media screen and (max-width:1200px){
+    .home h1{
+        padding-top: 200px;
+        padding-left: 300px;
+        font-size: 40px;
+        font-weight: 400;
+        color: white;
+    }
+    .about h1{
+        padding-top: 20px;
+        
+        font-size: 40px;
+        font-weight: 400;
+        color: white;
+    }
+    .home p{
+        font-size: 10px;
+        font-weight: 200;
+        color: white;
+        justify-content: center;
+    }
+    .contact .container-fluid h1{
+        padding-top: 20px;
+        padding-left: 300px;
+        font-size: 40px;
+        font-weight: 400;
+        color: black;
+    }
+    .product h1{
+        padding-top: 20px;
+        padding-left: 300px;
+        font-size: 40px;
+        font-weight: 400;
+        color: black;
+    }
+   
+    .home p{
+        font-size: 10px;
+        font-weight: 200;
+        color: white;
+        padding-left: 200px;
+    }
+    .home input{
+        height: 30px;
+        width:200px;
+        margin-top: 50px;
+        margin-left: 310px;
+    }
+    .home button{
+        height: 30px;
+        width: 100px;
+        background-color:rgb(9, 190, 9);
+        color: white;
+        font-size: larger;
+        border: 1px solid rgb(9, 190, 9);
+    }
+    .home button:hover{
+         background-color: black;
+    }
+    .product .card{
+        height: 300px;
+        width: 250px;
+       
+        margin-top: 70px;
+    }
+    .product .card img{
+        width:230px;
+        height:250px;
+        margin-left: 10px;
+    }
+   
+}
+@media screen and (max-width:1000px){
+    .about img{
+        margin-top: 90px;
+        margin-left: 20px;
+          height: 40%;
+          width:40%;
+      }
+      .about h1{
+        
+        font-size: 40px;
+        font-weight: 400;
+        color: white;
+    }
+    .about p{
+        font-size: 10px;
+        font-weight: 200;
+        color: white;
+        justify-content: center;
+    }
+    .contact .box{
+        
+        margin-left: 20px;
+    }
+    .contact .container-fluid h1{
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding-top: 2500px;
+        padding-left: 100px;
+    }
+   
+}
+@media screen and (max-width:768px){
+    .home h1{
+        padding-top: 200px;
+        padding-left: 150px;
+        font-size: 40px;
+        font-weight: 400;
+        color: white;
+    }
+   
+   .home p{
+        font-size: 10px;
+        font-weight: 200;
+        color: white;
+        padding-left: 100px;
+    }
+    .home input{
+        height: 30px;
+        width:150px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    .home button{
+        height: 30px;
+        width: 90px;
+        background-color:rgb(9, 190, 9);
+        color: white;
+        font-size: larger;
+        border: 1px solid rgb(9, 190, 9);
+    }
+    .home button:hover{
+         background-color: black;
+    }
+    .product h1{
+        padding-top: 20px;
+        padding-left: 100px;
+        font-size: 40px;
+        font-weight: 400;
+        color: black;
+    }
+    .contact .container-fluid h1{
+        padding-top: 2500px;
+        padding-left: 100px;
+        font-size: 40px;
+        font-weight: 400;
+        color: black;
+    }
+    
+    
+    
+}
+@media screen and (max-width:485px){
+    .home h1{
+        padding-top: 200px;
+        padding-left: 50px;
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+    }
+    .product h1{
+        padding-top: 20px;
+        padding-left: 50px;
+        font-size: 30px;
+        font-weight: 400;
+        color: black;
+    }
+    .contact .container-fluid h1{
+        padding-top: 20px;
+        padding-left: 90px;
+        font-size: 30px;
+        font-weight: 400;
+        color: black;
+    }
+    .home p{
+        font-size: 8px;
+        font-weight: 200;
+        color: white;
+        padding-left: 25px;
+    }
+    .about h1{
+        
+        font-size: 30px;
+        font-weight: 400;
+        color: white;
+    }
+    .about p{
+        font-size: 8px;
+        font-weight: 200;
+        color: white;
+        justify-content: center;
+    }
+    .home input{
+        height: 30px;
+        width:100px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .home button{
+        height: 30px;
+        width: 50px;
+        background-color:rgb(9, 190, 9);
+        color: white;
+        font-size: larger;
+        border: 1px solid rgb(9, 190, 9);
+    }
+    .home button:hover{
+         background-color: black;
+    }
+    .contact .container-fluid h1{
+        padding-top: 2500px;
+        padding-left: 100px;
+        font-size: 40px;
+        font-weight: 400;
+        color: black;
+    }
+    
+}
